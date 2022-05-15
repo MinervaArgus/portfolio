@@ -2,8 +2,10 @@
   "name": "minervaargusportfolio",
   "version": "0.0.0",
   "scripts": {
-    "deploy" : "npm run gh-pages",
-    "gh-pages" : "gh-pages -d dist -b gh-pages"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+    
   },
   "devDependencies": {
     "vite": "^2.7.2"
