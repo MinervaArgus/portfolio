@@ -1,11 +1,9 @@
 {
-  "name": "portfolio-animation",
+  "name": "minervaargusportfolio",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy" : "gh-pages -d dist"
+    "deploy" : "npm run gh-pages",
+    "gh-pages" : "gh-pages -d dist -b gh-pages"
   },
   "devDependencies": {
     "vite": "^2.7.2"
